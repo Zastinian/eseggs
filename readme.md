@@ -2,6 +2,7 @@
 
 - [Discord](https://discord.gg/aXvuUpvRQs) [Esmile Discord]
 - [Pterodactyl](https://pterodactyl.io) [Pterodactyl]
+- [Web](https://mresmile.com) [Esmile Website]
 
 ### Use Nodejs In Pterodactyl
 
@@ -26,3 +27,11 @@
 | Bun Version | Egg Link    |
 | ----------- | ----------- |
 | `lastest`   | [Bun](/bun) |
+
+### Use Html In Pterodactyl
+
+- [Html](https://developer.mozilla.org/en-US/docs/Web/HTML)
+
+| Html Version | Egg Link      |
+| ------------ | ------------- |
+| `lastest`    | [Html](/html) |
