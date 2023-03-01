@@ -1,0 +1,31 @@
+{
+  "_comment": "DO NOT EDIT: FILE GENERATED AUTOMATICALLY BY PTERODACTYL PANEL - PTERODACTYL.IO",
+  "meta": {
+    "version": "PTDL_v2",
+    "update_url": null
+  },
+  "exported_at": "2023-03-01T07:57:24+00:00",
+  "name": "Html",
+  "author": "contact@mresmile.com",
+  "description": "Html in pterodactyl",
+  "features": null,
+  "docker_images": {
+    "ghcr.io/zastinian/esdock:html": "ghcr.io/zastinian/esdock:html"
+  },
+  "file_denylist": [],
+  "startup": "./.caddy/caddy run --config /home/container/.caddy/Caddyfile --envfile /home/container/.caddy/.env",
+  "config": {
+    "files": "{\r\n    \".caddy/Caddyfile\": {\r\n        \"parser\": \"file\",\r\n        \"find\": {\r\n            \"{{PTERODACTYL_PORT}}\": \":{{server.build.default.port}} {\"\r\n        }\r\n    }\r\n}",
+    "startup": "{\r\n    \"done\": \"serving initial configuration\"\r\n}",
+    "logs": "{}",
+    "stop": "^C"
+  },
+  "scripts": {
+    "installation": {
+      "script": "#!/bin/ash\r\napk --no-cache add curl\r\napk --no-cache add tar\r\napk --no-cache add git\r\ncd /mnt/server\r\nfind . -maxdepth 1 ! -name \"www\" ! -name \"logs\" ! -name . -exec rm -rf {} \\;\r\nversion=$(curl --silent \"https://api.github.com/repos/caddyserver/caddy/releases/latest\" | grep '\"tag_name\":' | sed -E 's/.*\"([^\"]+)\".*/\\1/' | cut -c2-);\r\nif [ ! -d \".caddy\" ]; then mkdir .caddy; fi\r\ncurl -L https://github.com/caddyserver/caddy/releases/download/v${version}/caddy_${version}_linux_amd64.tar.gz --output caddy.tar.gz\r\ntar -zxvf caddy.tar.gz -C .caddy\r\nrm -rf caddy.tar.gz\r\nif [ ! -d \".caddy\" ]; then mkdir .caddy; fi\r\nif [ ! -d \".caddy/data\" ]; then mkdir .caddy/data; fi\r\nif [ ! -f \"Caddyfile\" ]; then curl -L https://raw.githubusercontent.com/lazybytez/custom-eggs/master/eggs/caddy/config/Caddyfile --output .caddy/Caddyfile; fi\r\nif [ ! -f \".env\" ]; then curl -L https://raw.githubusercontent.com/lazybytez/custom-eggs/master/eggs/caddy/config/.env --output .caddy/.env; fi\r\nif [ ! -d \"www\" ]; then mkdir www; fi\r\nif [ ! -d \"logs\" ]; then mkdir logs; fi\r\ncd /mnt/server/www\r\ngit clone https://github.com/EsmileCompany/pterodactyl-html .\r\nrm -rf ./README.md\r\nrm -rf ./.git",
+      "container": "alpine:3.4",
+      "entrypoint": "ash"
+    }
+  },
+  "variables": []
+}
