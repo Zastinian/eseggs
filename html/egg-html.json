@@ -7,7 +7,7 @@
   "exported_at": "2023-03-01T07:57:24+00:00",
   "name": "Html",
   "author": "contact@mresmile.com",
-  "description": "Html in pterodactyl",
+  "description": "Html Egg",
   "features": null,
   "docker_images": {
     "ghcr.io/zastinian/esdock:html": "ghcr.io/zastinian/esdock:html"
