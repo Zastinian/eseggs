@@ -35,3 +35,9 @@
 | Html Version | Egg Link      |
 | ------------ | ------------- |
 | `lastest`    | [Html](/html) |
+
+### Bots
+
+| Version            | Egg Link                        |
+| ------------------ | ------------------------------- |
+| `whatsapp lastest` | [Esmile](/bots/whatsapp/esmile) |
