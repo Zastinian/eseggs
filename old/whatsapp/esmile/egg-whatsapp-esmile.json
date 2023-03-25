@@ -4,13 +4,13 @@
         "version": "PTDL_v2",
         "update_url": null
     },
-    "exported_at": "2023-03-25T21:27:42+00:00",
+    "exported_at": "2023-03-08T06:06:12+00:00",
     "name": "Whatsapp Bot ( Esmile )",
     "author": "contact@mresmile.com",
     "description": "Egg for whatsapp bot esmile",
     "features": null,
     "docker_images": {
-        "ghcr.io\/zastinian\/esdock:nodejs_19": "ghcr.io\/zastinian\/esdock:nodejs_19"
+        "ghcr.io\/zastinian\/esdock:chrnodejs_19": "ghcr.io\/zastinian\/esdock:chrnodejs_19"
     },
     "file_denylist": [],
     "startup": "if [[ -d .git ]] && [[ {{AUTO_UPDATE}} == \"1\" ]]; then git pull; fi; if [[ ! -z ${NODE_PACKAGES} ]]; then \/usr\/local\/bin\/npm install ${NODE_PACKAGES}; fi; if [[ ! -z ${UNNODE_PACKAGES} ]]; then \/usr\/local\/bin\/npm uninstall ${UNNODE_PACKAGES}; fi; if [ -f \/home\/container\/package.json ]; then \/usr\/local\/bin\/npm install; fi; \/usr\/local\/bin\/node \/home\/container\/{{JS_FILE}}",
@@ -34,7 +34,7 @@
             "env_variable": "GIT_ADDRESS",
             "default_value": "https:\/\/github.com\/Zastinian\/Esmile-Whatsapp.git",
             "user_viewable": true,
-            "user_editable": false,
+            "user_editable": true,
             "rules": "nullable|string",
             "field_type": "text"
         },
