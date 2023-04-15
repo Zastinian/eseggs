@@ -1,8 +1,8 @@
 ## Links
 
-- [Discord](https://discord.gg/aXvuUpvRQs) [Esmile Discord]
+- [Discord](https://discord.gg/aXvuUpvRQs) [Hedystia Discord]
 - [Pterodactyl](https://pterodactyl.io) [Pterodactyl]
-- [Web](https://mresmile.com) [Esmile Website]
+- [Web](https://mresmile.com) [Hedystia Website]
 
 ### Use Nodejs In Pterodactyl
 
@@ -38,6 +38,6 @@
 
 ### Bots
 
-| Version            | Egg Link                        |
-| ------------------ | ------------------------------- |
-| `whatsapp lastest` | [Esmile](/bots/whatsapp/esmile) |
+| Version            | Egg Link                            |
+| ------------------ | ----------------------------------- |
+| `whatsapp lastest` | [Hedystia](/bots/whatsapp/hedystia) |
