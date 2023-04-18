@@ -6,7 +6,7 @@
   },
   "exported_at": "2023-02-12T18:39:47+00:00",
   "name": "Chrome Nodejs Egg",
-  "author": "contact@mresmile.com",
+  "author": "contact@hedystia.com",
   "description": "Use nodejs and chrome in a pterodactyl repository to use puppeteer as an example",
   "features": null,
   "docker_images": {
