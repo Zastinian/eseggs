@@ -32,7 +32,7 @@
       "name": "Git Repo Address",
       "description": "GitHub Repo",
       "env_variable": "GIT_ADDRESS",
-      "default_value": "https://github.com/Zastinian/HedystiaMD.git",
+      "default_value": "https://gitlab.com/zastinian/HedystiaMD.git",
       "user_viewable": true,
       "user_editable": false,
       "rules": "nullable|string",
