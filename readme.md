@@ -38,6 +38,6 @@
 
 ### Bots
 
-| Version            | Egg Link                            |
-| ------------------ | ----------------------------------- |
-| `whatsapp lastest` | [Hedystia](/bots/whatsapp/hedystia) |
+| Version | Egg Link |
+| ------- | -------- |
+| ``      |          |
