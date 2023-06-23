@@ -2,7 +2,7 @@
 
 - [Discord](https://discord.gg/aXvuUpvRQs) [Hedystia Discord]
 - [Pterodactyl](https://pterodactyl.io) [Pterodactyl]
-- [Web](https://mresmile.com) [Hedystia Website]
+- [Web](https://hedystia.com) [Hedystia Website]
 
 ### Use Nodejs In Pterodactyl
 
