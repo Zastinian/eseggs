@@ -10,9 +10,10 @@
   "description": "Nodejs Egg",
   "features": null,
   "docker_images": {
-    "ghcr.io/zastinian/esdock:nodejs_19": "ghcr.io/zastinian/esdock:nodejs_19",
-    "ghcr.io/zastinian/esdock:nodejs_18": "ghcr.io/zastinian/esdock:nodejs_18",
-    "ghcr.io/zastinian/esdock:nodejs_16": "ghcr.io/zastinian/esdock:nodejs_16"
+    "Nodejs 20": "ghcr.io/zastinian/esdock:nodejs_20",
+    "Nodejs 19": "ghcr.io/zastinian/esdock:nodejs_19",
+    "Nodejs 18": "ghcr.io/zastinian/esdock:nodejs_18",
+    "Nodejs 16": "ghcr.io/zastinian/esdock:nodejs_16"
   },
   "file_denylist": [],
   "startup": "if [[ -d .git ]] && [[ {{AUTO_UPDATE}} == \"1\" ]]; then git pull; fi; if [[ ! -z ${NODE_PACKAGES} ]]; then /usr/local/bin/npm install ${NODE_PACKAGES}; fi; if [[ ! -z ${UNNODE_PACKAGES} ]]; then /usr/local/bin/npm uninstall ${UNNODE_PACKAGES}; fi; if [ -f /home/container/package.json ]; then /usr/local/bin/npm install; fi; {{COMMAND}}",
