@@ -10,7 +10,7 @@
   "description": "Html Egg",
   "features": null,
   "docker_images": {
-    "ghcr.io/zastinian/esdock:html": "ghcr.io/zastinian/esdock:html"
+    "HTML": "ghcr.io/zastinian/esdock:html"
   },
   "file_denylist": [],
   "startup": "./.caddy/caddy run --config /home/container/.caddy/Caddyfile --envfile /home/container/.caddy/.env",
