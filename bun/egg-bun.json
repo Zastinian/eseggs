@@ -10,10 +10,10 @@
   "description": "Bun Egg",
   "features": null,
   "docker_images": {
-    "ghcr.io/zastinian/esdock:bun": "ghcr.io/zastinian/esdock:bun"
+    "Bun Latest": "ghcr.io/zastinian/esdock:bun"
   },
   "file_denylist": [],
-  "startup": "if [[ -d .git ]] && [[ {{AUTO_UPDATE}} == \"1\" ]]; then git pull; fi; if [[ ! -z ${NODE_PACKAGES} ]]; then bun install ${NODE_PACKAGES}; fi; if [[ ! -z ${UNNODE_PACKAGES} ]]; then bun remove ${UNNODE_PACKAGES}; fi; if [ -f /home/container/package.json ]; then bun install; fi; {{COMMAND}}",
+  "startup": "if [[ -d .git ]] && [[ {{AUTO_UPDATE}} == \"1\" ]]; then git pull; fi; if [[ ! -z {{NODE_PACKAGES}} ]]; then bun install {{NODE_PACKAGES}}; fi; if [[ ! -z {{UNNODE_PACKAGES}} ]]; then bun remove {{UNNODE_PACKAGES}}; fi; if [ -f /home/container/package.json ]; then bun install; fi; {{COMMAND}}",
   "config": {
     "files": "{}",
     "startup": "{\r\n    \"done\": \"change this part\"\r\n}",
