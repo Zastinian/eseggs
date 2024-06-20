@@ -26,7 +26,7 @@
 
 | Bun Version | Egg Link    |
 | ----------- | ----------- |
-| `lastest`   | [Bun](/bun) |
+| `latest`   | [Bun](/bun) |
 
 ## Use Html In Pterodactyl
 
@@ -34,7 +34,7 @@
 
 | Html Version | Egg Link      |
 | ------------ | ------------- |
-| `lastest`    | [Html](/html) |
+| `latest`    | [Html](/html) |
 
 ## Bots
 
