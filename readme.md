@@ -1,26 +1,26 @@
-## Links
+# Links
 
 - [Discord](https://discord.gg/aXvuUpvRQs) [Hedystia Discord]
 - [Pterodactyl](https://pterodactyl.io) [Pterodactyl]
 - [Web](https://hedystia.com) [Hedystia Website]
 
-### Use Nodejs In Pterodactyl
+## Use Nodejs In Pterodactyl
 
 - [Nodejs](https://nodejs.org)
 
-| Node Version            | Egg Link          |
-| ----------------------- | ----------------- |
-| `V16, v18, v19 and v20` | [Nodejs](/nodejs) |
+| Node Version                      | Egg Link          |
+| --------------------------------- | ----------------- |
+| `v12, v14, v16, v18, v20 and v22` | [Nodejs](/nodejs) |
 
-### Using Chrome and Nodejs in Pterodactyl to use for example Puppeteer
+## Using Chrome and Nodejs in Pterodactyl to use for example Puppeteer
 
 - [Nodejs](https://nodejs.org)
 
-| Node Version            | Egg Link                |
-| ----------------------- | ----------------------- |
-| `V16, v18, v19 and v20` | [ChrNodejs](/chrnodejs) |
+| Node Version                      | Egg Link                |
+| --------------------------------- | ----------------------- |
+| `v12, v14, v16, v18, v20 and v22` | [ChrNodejs](/chrnodejs) |
 
-### Use Bun In Pterodactyl
+## Use Bun In Pterodactyl
 
 - [Bun](https://bun.sh)
 
@@ -28,7 +28,7 @@
 | ----------- | ----------- |
 | `lastest`   | [Bun](/bun) |
 
-### Use Html In Pterodactyl
+## Use Html In Pterodactyl
 
 - [Html](https://developer.mozilla.org/en-US/docs/Web/HTML)
 
@@ -36,7 +36,7 @@
 | ------------ | ------------- |
 | `lastest`    | [Html](/html) |
 
-### Bots
+## Bots
 
 | Version | Egg Link |
 | ------- | -------- |
