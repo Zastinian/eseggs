@@ -10,6 +10,7 @@
   "description": "Nodejs Egg",
   "features": null,
   "docker_images": {
+    "Nodejs 24": "ghcr.io/zastinian/esdock:nodejs_24",
     "Nodejs 22": "ghcr.io/zastinian/esdock:nodejs_22",
     "Nodejs 20": "ghcr.io/zastinian/esdock:nodejs_20",
     "Nodejs 18": "ghcr.io/zastinian/esdock:nodejs_18",

@@ -10,6 +10,7 @@
   "description": "Use nodejs and chrome in a pterodactyl repository to use puppeteer as an example",
   "features": null,
   "docker_images": {
+    "Chrome Nodejs 24": "ghcr.io/zastinian/esdock:chrnodejs_24",
     "Chrome Nodejs 22": "ghcr.io/zastinian/esdock:chrnodejs_22",
     "Chrome Nodejs 20": "ghcr.io/zastinian/esdock:chrnodejs_20",
     "Chrome Nodejs 18": "ghcr.io/zastinian/esdock:chrnodejs_18",
